@@ -6,4 +6,10 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-[[[RACSignal combineLatest:<#(id<NSFastEnumeration>)#> reduce:<#^id(void)reduceBlock#>] filter:<#^BOOL(id value)block#>] subscribeNext:<#^(id x)nextBlock#>];
+ [[[RACSignal combineLatest:<#(id<NSFastEnumeration>)#> reduce:^id{
+     return <#expression#>;
+ }] filter:^BOOL(id value) {
+     return <#expression#>;
+ }] subscribeNext:^(id x) {
+     <#code#>
+ }];
