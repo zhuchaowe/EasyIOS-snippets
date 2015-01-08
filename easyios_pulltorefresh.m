@@ -11,4 +11,4 @@
     [<#ScrollView#> initPullToRefreshWithActionHandler:^{
         @strongify(<#...#>);
         <#code#>
-    } customer:<#BOOL#>];
+    }];
