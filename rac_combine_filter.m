@@ -11,7 +11,9 @@
     @strongify(<#...#>);
     return <#expression#>; //return object
 }] filter:^BOOL(id value) {
+    @strongify(<#...#>);
     return <#expression#>;//return bool
 }] subscribeNext:^(id x) {
+    @strongify(<#...#>);
     <#code#>
 }];
