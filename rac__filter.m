@@ -11,5 +11,5 @@
       return <#expression#>;//return bool
   }]
  subscribeNext:^(id x) {
-     
+     <#code#>
  }];
