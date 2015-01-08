@@ -6,6 +6,10 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-[[RACObserve(<#TARGET#>, <#KEYPATH#>)
-      filter:<#^BOOL(id value)block#>]
-     subscribeNext:<#^(id x)nextBlock#>];
+ [[RACObserve(<#TARGET#>, <#KEYPATH#>)
+   filter:^BOOL(id value) {
+       return <#expression#>;
+   }]
+  subscribeNext:^(id x) {
+      
+  }];
