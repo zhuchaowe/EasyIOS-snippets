@@ -1,0 +1,11 @@
+// rac_ filter
+// 
+//
+// IDECodeSnippetCompletionScopes: [CodeBlock]
+// IDECodeSnippetIdentifier: 799D254A-E10D-47BC-BA53-11F8798FF0E5
+// IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
+// IDECodeSnippetUserSnippet: 1
+// IDECodeSnippetVersion: 0
+[[RACObserve(<#TARGET#>, <#KEYPATH#>)
+      filter:<#^BOOL(id value)block#>]
+     subscribeNext:<#^(id x)nextBlock#>];
