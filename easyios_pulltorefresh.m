@@ -1,4 +1,4 @@
-// easyios_PullToRefresh
+// easyios_default_pullToRefresh
 // 
 //
 // IDECodeSnippetCompletionScopes: [CodeBlock]
