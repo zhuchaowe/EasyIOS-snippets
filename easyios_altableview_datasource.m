@@ -21,3 +21,4 @@
 - (void)tableView:(ALTableView *)tableView configureCell:(ALBaseCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     <#code#>;
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
