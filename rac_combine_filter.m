@@ -6,7 +6,9 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
+@strongify(<#...#>);
 [[[RACSignal combineLatest:<#(id<NSFastEnumeration>)#> reduce:^id{
+    @strongify(<#...#>);
     return <#expression#>; //return object
 }] filter:^BOOL(id value) {
     return <#expression#>;//return bool
