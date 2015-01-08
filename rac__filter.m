@@ -1,4 +1,4 @@
-// rac_ filter
+// rac_filter_subscribeNext
 // 
 //
 // IDECodeSnippetCompletionScopes: [CodeBlock]
