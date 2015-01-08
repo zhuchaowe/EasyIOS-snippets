@@ -6,7 +6,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-@strongify(<#...#>);
+@weakify(<#...#>);
 [[[RACSignal combineLatest:<#(id<NSFastEnumeration>)#> reduce:^id{
     @strongify(<#...#>);
     return <#expression#>; //return object
