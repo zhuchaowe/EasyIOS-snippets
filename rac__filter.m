@@ -6,6 +6,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
+@weakify(<#...#>);
 [[RACObserve(<#TARGET#>, <#KEYPATH#>)
   filter:^BOOL(id value) {
       return <#expression#>;//return bool
